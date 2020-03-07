@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="bazar.webp" alt="Logo">
+            <img src="wp-content/themes/twentytwenty/assets/images/bazar.webp" alt="Logo">
         </div>
         <nav>
             <ul>
