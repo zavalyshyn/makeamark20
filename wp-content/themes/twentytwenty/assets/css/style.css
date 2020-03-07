@@ -63,11 +63,12 @@ p {
 }
 
 header {
-  width: 100%;
+  max-width: 100%;
   position: fixed;
   z-index: 2;
   top: 0;
   left: 0;
+  right: 0;
   padding: 0 12.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,6 +134,7 @@ section {
 section.main {
   background: black;
   height: 100vh;
+  padding-bottom: 0em !important;
 }
 
 section.main video {
