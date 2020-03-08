@@ -6,8 +6,8 @@ The repo contains the Wordpress files and configs, as well as a database dump of
 
 WP login details:
 
-username: admin
-password: $)UE8Y&*%oyY1D0Q$m
+	username: admin
+	password: $)UE8Y&*%oyY1D0Q$m
 
 WP plugins used:
 - Advanced Custom Fields v5.8.8 by Elliot Condon
