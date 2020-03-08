@@ -1,13 +1,12 @@
 db-dump.sql	- a dump of the database
 
 Database details:
-name: `bazaartrottoir`
-user:
 
+	name: bazaartrottoir
 	login: admin
 	password: password
 
-additional users(created but not used):
+additional users (created but not used):
 
 	login: user
 	password: bazaar
