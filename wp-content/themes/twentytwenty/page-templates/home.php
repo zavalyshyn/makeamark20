@@ -36,7 +36,8 @@ get_header();
     $args_sf = array(
         'post_type' => 'walk',
         'posts_per_page' => -1,
-        'suppress_filters' => 0
+        'suppress_filters' => 0,
+        'order' => 'ASC'
     );
     $loop = new wp_Query($args_sf);
     while($loop->have_posts()) : $loop->the_post(); ?>
@@ -63,7 +64,7 @@ get_header();
  ?>
 
 
-    <article>
+    <!-- <article>
         <div class="walk-img-container">
                 <img src="wp-content/themes/twentytwenty/assets/images/gp.webp" alt="theme img" />
         </div>
@@ -85,7 +86,7 @@ get_header();
                     provident at ipsa</p>
                 <a href="#" class="btn">Book a walk</a>
             </div>
-        </article>
+        </article> -->
 
     <a href="#" class="btn btn-alt">View more</a>
     <img src="wp-content/themes/twentytwenty/assets/images/pinkpipeleft.svg" alt="Pink pipe" class="pink-pipe-left">

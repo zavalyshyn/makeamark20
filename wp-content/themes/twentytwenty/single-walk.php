@@ -7,10 +7,10 @@
 get_header();
 ?>
 <section class="main">
-    <video autoplay="true" muted="true" loop>
-        <source src="assets/img/bg.mp4" type="video/mp4">
+    <img>
+        <source src="<?= get_the_post_thumbnail_url() ?>">
         Your browser does not support the video tag.
-    </video>
+    </img>
     <div class="copy">
         <h1><?= get_the_title(); ?></h1>
         <p class="white"> PWR highlights women with their own company or project. We walk past various places .</p>
